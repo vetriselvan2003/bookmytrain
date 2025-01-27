@@ -1,0 +1,13 @@
+
+.card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+
+  .card button:hover {
+    background-color: #5cb300;
+    border: 1px solid #5cb300;
+    transition: 0.3s ease-in-out;
+  }
+  
