@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Trains from './component/pages/trains'
 import PassengerDetails from './component/pages/passengerDetails'
 import Lastpage from './component/pages/lastpage'
+import Notfound from './component/pages/Notfound'
 
 function App() {
   const train=[
@@ -37,6 +38,7 @@ function App() {
             <Route path='/' element={<Register />}></Route>
             <Route path='/passengerDetails' element={<PassengerDetails train={train} />}></Route>
             <Route path='/view' element={<Lastpage />} />
+            <Route path='*' element={<Notfound />} />
         </Routes>
     </div>
   )
